@@ -759,7 +759,6 @@ export default class Carousel extends React.Component<CarouselProps, CarouselSta
                 aria-label={this.props.ariaLabel}
                 className={klass.ROOT(this.props.className)}
                 ref={this.setCarouselWrapperRef}
-                tabIndex={this.props.useKeyboardArrows ? 0 : undefined}
             >
                 <div className={klass.CAROUSEL(true)} style={{ width: this.props.width }}>
                     {this.renderControls()}
